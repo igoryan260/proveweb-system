@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Estilizando o menu*/
+
+.main-menu {
+    background-color: #f78305;
+    height: 100px;
+}
+
+.logo {
+    background-color: white;
+    height: 100%;
+    width: 190px;
+}
+
+.logo figcaption {
+    height: 100%;
+}
+
+.logo figcaption figure {
+    height: 100%;
+}
+
+.logo figcaption figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
