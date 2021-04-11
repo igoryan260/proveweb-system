@@ -39,6 +39,7 @@
 .links-menu {
     display: flex;
     padding-left: 1rem;
+    width: 100%;
 }
 
 
@@ -47,8 +48,39 @@
 .menu {
     height: auto;
     padding-top: 2.5rem;
-    width: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
+
+
+/*espaçamento dos items do menu*/
+
+#menu-left {
+    width: 70%;
+}
+
+#menu-right {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+
+#menu-right li {
+    margin-right: 1rem;
+}
+
+
+/*icon of configurations*/
+
+.fas.fa-cog {
+    color: #1fade7;
+    text-shadow: black 0px 0px 5px;
+}
+
+
+/*===========================*/
 
 .menu ul {
     display: flex;
@@ -56,13 +88,26 @@
     justify-content: space-between;
 }
 
+
+/* Estilizando links do menu, atendimento, clientes etc...*/
+
 .menu ul li a {
     color: white;
     text-decoration: none;
     font-size: 14pt;
-    font-weight: 800;
+    font-weight: 500;
     font-family: 'montserrat';
 }
+
+.menu ul li a:hover {
+    color: #456c89;
+}
+
+
+/*===================================================================*/
+
+
+/*estilizando itens no interior do menu*/
 
 .menu ul ul {
     display: none;
@@ -79,4 +124,12 @@
 
 .menu ul li:hover>ul {
     display: block;
+}
+
+
+/*fontes*/
+
+.menu ul li ul li {
+    font-family: 'montserrat';
+    font-weight: 400;
 }

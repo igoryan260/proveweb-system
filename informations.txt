@@ -1,1 +1,3 @@
 Dia 07/04/2021, hoje foi adicionados vários estilos de CSS na página inicial e criando os menus com seus submenus. Não está finalizado. Mas parte do padrão foi criado
+
+Dia 11/04/2021, hoje terminamos de colocar os items necessários do menu, tais como: arrow; power e gear para as configurações. Também foram feitas alteraões nas fontes e espeçamento jutamente com divisões do menu.
