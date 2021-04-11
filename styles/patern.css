@@ -10,6 +10,7 @@
 .main-menu {
     background-color: #f78305;
     height: 100px;
+    display: flex;
 }
 
 .logo {
@@ -30,4 +31,52 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* Estillização dos links do menu */
+
+.links-menu {
+    display: flex;
+    padding-left: 1rem;
+}
+
+
+/*nav*/
+
+.menu {
+    height: auto;
+    padding-top: 2.5rem;
+    width: 700px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 800;
+    font-family: 'montserrat';
+}
+
+.menu ul ul {
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    width: max-content;
+    padding: .2rem 1rem;
+    margin: 0 auto;
+}
+
+.menu ul ul li {
+    color: #456c89;
+}
+
+.menu ul li:hover>ul {
+    display: block;
 }

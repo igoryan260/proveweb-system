@@ -1,0 +1,1 @@
+Dia 07/04/2021, hoje foi adicionados vários estilos de CSS na página inicial e criando os menus com seus submenus. Não está finalizado. Mas parte do padrão foi criado
