@@ -46,7 +46,8 @@
        height: 29.8em;
    }
    
-   .iframe-novoBanho {
+   .iframe-novoBanho,
+   .iframe-agenda {
        width: 100%;
        height: 100%;
    }

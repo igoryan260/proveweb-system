@@ -32,8 +32,8 @@
                     </figure>
                 </figcaption>
             </div>
+            <!-- Logo -->
             <div class="links-menu">
-                <!-- Menu -->
                 <nav class="menu">
                     <!-- Links -->
                     <ul id="menu-left">
@@ -42,7 +42,17 @@
                         <li>
                             <a href="#">Atendimento <i class="fas fa-chevron-up"></i></a>
                             <ul>
-                                <li>Banhos</li>
+                                <li class="button-link">
+                                    <button type="button">
+                                        <a href="#">Banhos</a>
+                                    </button>
+                                    <button>
+                                        <a href="#">Teste</a>
+                                    </button>
+                                    <button>
+                                        <a href="#">Teste 2</a>
+                                    </button>
+                                </li>
                             </ul>
 
                         </li>
@@ -51,37 +61,71 @@
                         <li>
                             <a href="#">Clientes <i class="fas fa-chevron-up"></i></a>
                             <ul>
-                                <li>Novo</li>
-                                <li>Atualizar</li>
+                                <li class="button-link">
+                                    <button>
+                                        <a href="#">Novo</a>
+                                    </button>
+                                    <button>
+                                        <a href="#">Atualizar</a>
+                                    </button>
+                                </li>
                             </ul>
                         </li>
                         <!-- Fornecedores -->
                         <li>
                             <a href="#">Fornecedores <i class="fas fa-chevron-up"></i></a>
                             <ul>
-                                <li>Novo</li>
-                                <li>Atualizar</li>
-                                <li>Compra</li>
+                                <li class="button-link">
+                                    <button>
+                                        <a href="#">Novo</a>
+                                    </button>
+                                    <button>
+                                        <a href="#">Atualizar</a>
+                                    </button>
+                                    <button>
+                                        <a href="#">Compra</a>
+                                    </button>
+                                </li>
                             </ul>
                         </li>
                         <!-- Produtos -->
                         <li>
                             <a href="#">Produtos <i class="fas fa-chevron-up"></i></a>
                             <ul>
-                                <li>Novo</li>
-                                <li>Venda</li>
-                                <li>Estoque</li>
-                                <li>Promoções</li>
-                                <li>Notificações</li>
+                                <li class="button-link">
+                                    <button>
+                                        <a href="#">Novo</a>
+                                    </button>
+                                    <button>
+                                        <a href="#">Venda</a>
+                                    </button>
+                                    <button>
+                                        <a href="#">Estoque</a>
+                                    </button>
+                                    <button>
+                                        <a href="#">Promoções</a>
+                                    </button>
+                                    <button>
+                                        <a href="#">Notificações</a>
+                                    </button>
+                                </li>
                             </ul>
                         </li>
                         <!-- imprimir -->
                         <li>
                             <a href="#">Imprimir <i class="fas fa-chevron-up"></i></a>
                             <ul>
-                                <li>NF-e</li>
-                                <li>Boletos</li>
-                                <li>Relatórios</li>
+                                <li class="button-link">
+                                    <button>
+                                        <a href="#">NF-e</a>
+                                    </button>
+                                    <button>
+                                        <a href="#">Boletos</a>
+                                    </button>
+                                    <button>
+                                        <a href="#">Relatórios</a>
+                                    </button>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -98,7 +142,9 @@
                 </nav>
 
             </div>
+            <!-- links-menu -->
         </div>
+        <!-- Main menu -->
     </header>
     <!-- Finalização do menu -->
 
@@ -111,18 +157,26 @@
             <h3>Banhos</h3>
         </div>
         <div class="buttons ">
-            <button id="novo">Novo</button> <button id="excluir">Excluir</button> <button id="agenda">Agenda</button>
+            <button id="novo">Novo</button>
+            <button id="excluir">Excluir</button>
+            <button id="agenda">Agenda</button>
         </div>
 
     </div>
 
     <!-- Iframes -->
 
-    <section class="iframe iframe-primeiro" id="iframeNovoBanho">
+    <section class="iframe " id="iframeNovoBanho">
 
         <iframe src="./banhos-novo.html" frameborder="0" class="iframe-novoBanho"></iframe>
 
     </section>
+    <!--iframe de novo banho -->
+
+    <section class="display" id="iframeAgenda">
+        <iframe src="./banhos-agenda.html" frameborder="0" class="iframe-agenda"></iframe>
+    </section>
+    <!-- Iframe de Agenda-->
 
     <!--script do js-->
     <script src="../js/scriptAtendimentos.js"></script>

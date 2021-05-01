@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/patern.css">
+    <link rel="stylesheet" href="../styles/_banhosAgenda.css">
+    <!-- importação das fontes do font awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <!-- Importação concluída -->
+    <title>Banhos - Agenda</title>
+</head>
+
+<body>
+    <div id="container-tabela">
+        <!-- Criando a parte da tabela de resultados do banco de dados -->
+
+        <form action="#">
+            <table id="tabela-agenda">
+                <thead>
+                    <tr>
+                        <th>
+                            <!--Esta célula está vazia somente para organizar o centeúdo seguinte-->
+                        </th>
+                        <th>Data</th>
+                        <th>Hora</th>
+                        <th>PET</th>
+                        <th>Cód. Atendimento</th>
+                        <th>Nome do Pet</th>
+                    </tr>
+                </thead>
+                <!-- head of table-->
+                <tbody>
+
+
+                    <tr>
+                        <td><input type="radio" name="cliente" id="client"></td>
+                        <td><label for="client">23/12</label></td>
+                        <td><label for="client">09:00</label></td>
+                        <td><label for="client">Cachorro</label></td>
+                        <td><label for="client">0000</label></td>
+                        <td><label for="client">Maik</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="radio" name="cliente" id="client1"></td>
+                        <td><label for="client1">01/05</label></td>
+                        <td><label for="client1">12:00</label></td>
+                        <td><label for="client1">Gato</label></td>
+                        <td><label for="client1">0102</label></td>
+                        <td><label for="client1">Bola de pelo</label></td>
+                    </tr>
+                </tbody>
+                <!-- Body of table-->
+            </table>
+            <div id="verMais">
+                <input type="submit" value="Ver selecionado">
+            </div>
+
+        </form>
+
+    </div>
+    <!-- Container Tabela -->
+
+
+</body>
+
+</html>

@@ -91,6 +91,10 @@
 
 /* Estilizando links do menu, atendimento, clientes etc...*/
 
+.menu ul li {
+    height: min-content;
+}
+
 .menu ul li a {
     color: white;
     text-decoration: none;
@@ -99,8 +103,26 @@
     font-family: 'montserrat';
 }
 
-.menu ul li a:hover {
+
+/*Arrumando a estilização do menu aberto*/
+
+.button-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button-link button {
+    background: none;
+    border: none;
+}
+
+li.button-link button a {
     color: #456c89;
+}
+
+li.button-link button a:hover {
+    color: #456c898a;
 }
 
 

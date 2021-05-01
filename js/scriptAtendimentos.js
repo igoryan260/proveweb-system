@@ -8,11 +8,15 @@ var agenda = document.querySelector("#agenda");
 var iframeAgenda = document.querySelector("#iframeAgenda");
 
 novo.addEventListener("click", function() {
-    iframeNovoBanho.className = "iframe iframe-primeiro";
+    iframeNovoBanho.className = "iframe";
+    iframeAgenda.className = "display";
 });
 
 excluir.addEventListener("click", function() {
-
     iframeNovoBanho.className = "display";
+});
 
+agenda.addEventListener("click", function() {
+    iframeAgenda.className = "iframe";
+    iframeNovoBanho.className = "display";
 })

@@ -14,3 +14,5 @@ Alinhamentos dos elementos. Mudança de fontes e estilização dos botões.
 
 dia 19/04/2021, finalizada a página de novo banho, tanto com cadastro quanto sem cadastro. Com estilizações.
 Criada também a página de busca realizada, (quando existe um cliente já cadastrado no sistema).
+
+dia 01/05/2021, hoje foram feitas várias alterações no index do sistema. Alterações no menu e nos links do menu. Foi adicionada nova página, banhos agendamento. Na tela de "banhos", terá um link no submenu chamado Agenda, quando clicar ali o javaScript vai rodar a função de colocar display none no iframe que ja estava aparecendo e colocará o display da tela "agenda". Veja!

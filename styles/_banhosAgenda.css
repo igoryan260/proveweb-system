@@ -1,0 +1,86 @@
+* {
+    font-family: 'montserrat';
+}
+
+#container-tabela {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#tabela-agenda {
+    margin: 3rem auto 0;
+    border-collapse: collapse;
+    color: #595959;
+    height: 100%;
+}
+
+#tabela-agenda tr {
+    line-height: 40px;
+}
+
+#tabela-agenda tbody tr:hover {
+    background-color: #9b9b9b2a;
+}
+
+#tabela-agenda tr th {
+    text-align: left;
+}
+
+#tabela-agenda td {
+    line-height: 30px;
+    width: 20rem;
+}
+
+
+/*colocando borda esquerda */
+
+#tabela-agenda th,
+#tabela-agenda td {
+    border-left: solid #595959 1px;
+    padding: 0 0 0 1rem;
+}
+
+#tabela-agenda th:first-child,
+#tabela-agenda td:first-child {
+    border-left: none;
+}
+
+
+/*labels hover */
+
+#tabela-agenda tbody label {
+    cursor: pointer;
+}
+
+
+/*estilizanção do input radio, que seleciona o agendamento que quer ver mais*/
+
+input[type="radio"] {
+    appearance: none;
+    width: 8px;
+    height: 8px;
+    border: solid #595959 1px;
+}
+
+input[type="radio"]:checked {
+    background-color: #595959;
+}
+
+
+/*estilização do input submit,  para efetuar a pesquisa no BD*/
+
+#verMais {
+    display: flex;
+    justify-content: flex-end;
+}
+
+input[type="submit"] {
+    background: none;
+    border: none;
+    font-family: 'montserrat';
+    font-size: 15pt;
+    color: #4fafb7;
+    width: max-content;
+    margin-top: 2rem;
+    cursor: pointer;
+}
