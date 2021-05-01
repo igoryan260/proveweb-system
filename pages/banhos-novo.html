@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/patern.css">
+    <link rel="stylesheet" href="../styles/_banhosNovo.css">
+
+    <!-- importação das fontes do font awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <!-- Importação concluída -->
+
+    <title>Banhos - Novo banho</title>
+</head>
+
+<body>
+
+    <!-- Titulos das abas-->
+    <div class="titlesOfScreen">
+        <div class="tituloAba">
+            <p id="tituloSemCadastro" class="abaSelecionada">Sem Cadastro</p>
+        </div>
+        <div class="tituloAba">
+            <p id="tituloComCadastro">Com Cadastro</p>
+        </div>
+    </div>
+
+    <!-- Esta div irá agrupar os dois tipos de agendamento de banho, "sem cadastro" ou "com cadastro"-->
+
+    <div class="selectTypeOfSign">
+        <div class="alinhamento">
+            <!-- Agendamento sem Cadastro-->
+            <div class="agendamento agdSemCadastro " id="agendamentoSemCadastro">
+
+                <form action="#">
+
+                    <!-- Pricipal -->
+                    <div>
+                        <label for="pet">Nome do pet</label> <input type="text" name="nomePet" id="pet">
+                    </div>
+                    <div>
+                        Data/Hora <input type="datetime-local" name="dataHora" id="dateHour">
+                    </div>
+                    <div>
+                        <label for="agenda">Agendar para:</label>
+                        <input type="datetime-local" name="dataHoraAgenda" id="agenda">
+                    </div>
+
+                    <!-- Porte -->
+                    <div>
+                        Porte &nbsp;&nbsp;<input type="radio" name="porte" id="pequeno">
+                        <label for="pequeno">Pequeno</label>
+                        <input type="radio" name="porte" id="medio">
+                        <label for="medio">Medio</label>
+                        <input type="radio" name="porte" id="grande">
+                        <label for="grande">Grande</label>
+                    </div>
+
+                    <!-- idade -->
+                    <div>
+                        <label for="idade">Idade</label><input type="number" name="Idade" id="idade">
+                    </div>
+                    <div>
+                        <label for="birthday">Aniversário</label><input type="date" name="aniversario" id="birthday">
+                    </div>
+
+                    <!-- Vacinas -->
+                    <div>
+                        Vacinas &nbsp;&nbsp;<input type="radio" name="vacina" id="antiRabica"><label for="antiRabica">Anti-rábica</label>
+                        <input type="radio" name="vacina" id="naoPossui"><label for="naoPossui">Não possui</label><input type="radio" name="vacina" id="outras"><label for="outras">Outras</label>
+                    </div>
+
+
+
+                    <!-- Adicionais -->
+                    Adicionais
+                    <div>
+                        <div>
+                            <input type="checkbox" name="shampoo" id="shampoo"><label for="shampoo">Shampoo anti-pulgas e carrapatos</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="tosa" id="tosa"><label for="tosa">Tosa</label>
+                        </div>
+                    </div>
+
+                    <!-- Endereço -->
+                    <section class="adress">
+                        <div>
+                            <label for="rua">Rua</label>
+                            <input type="text" name="endereco" id="adress">
+                            <label for="cep">CEP</label><input type="number" name="cep" id="cep"><label for="number">Número</label><input type="number" name="numero" id="number">
+                        </div>
+                        <div>
+                            <label for="complement">Complemento</label><input type="text" id="complement">
+                        </div>
+                    </section>
+
+                    <!-- Submit -->
+                    <section class="submit">
+                        <i>Código do atendimento: 00000</i>
+                        <button>
+                            <input type="submit" value="Agendar Banho"> 
+                            <i class="arrows">&gt;&gt;</i>
+                        </button>
+                    </section>
+
+                </form>
+
+            </div>
+            <!-- Agendamento com Cadastro-->
+            <div class="agendamento agdComCadastro display" id="agendamentoComCadastro">
+
+                <!-- Formulario (agendamento com cadastro) -->
+
+                <form action="./buscaCadastro.html" class="formComCadastro">
+
+                    <label for="cliente">Nome do cliente</label><input type="text" name="nomeCliente" id="cliente">
+                    <label for="pet">Nome do pet</label><input type="text" name="nomePet" id="pet">
+                    <label for="cpf">CPF</label><input type="number" name="cpfCliente" id="cpf">
+                    <label for="portePet">Porte do PET</label><input type="text" name="porteDoPet" id="portePet">
+
+                    <div>
+                        <input type="submit" value="BUSCAR">
+                        <input type="reset" value="LIMPAR">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Arquivo javascript -->
+    <script src="../js/atendimentosNovoBanho.js"></script>
+
+</body>
+
+</html>

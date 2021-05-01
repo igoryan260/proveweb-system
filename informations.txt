@@ -1,3 +1,16 @@
 Dia 07/04/2021, hoje foi adicionados vários estilos de CSS na página inicial e criando os menus com seus submenus. Não está finalizado. Mas parte do padrão foi criado
 
 Dia 11/04/2021, hoje terminamos de colocar os items necessários do menu, tais como: arrow; power e gear para as configurações. Também foram feitas alteraões nas fontes e espeçamento jutamente com divisões do menu.
+
+dia 13/04/2021, hoje foi criado somente um arquivo JS em branco, página para adicionar um novo cliente do petshop, página banhos (em branco). No próximo trabalho, vamos colocar conteúdos na página de Criar novo banho ou agendamento e mexer com o javascript que terá a funcionalidade de mostrar ou ocultar o iFrame na tela.
+
+dia 15/04/2021, hoje foi feita algumas estilizações e inclusões de conteúdos nos das paginas de agendamento de banhos. Onde foi incluído formulários no primeiro iframe da página banhos.
+
+dia 16/04/2021, hoje foi terminado de criar o formulário da página de novo banho sem cadastro. Também pequenas modificações no estilo desta página.
+
+dia 18/04/2021, terminado de estilizar o iframe do novo banho sem cadastro. Adicionado javascript nesta página para aplicar o display none se necessário nas suas respectivas telas. Também foi alterado o sub menu com fundo verde, onde o usuário poderá ver onde o cursor do mouser está passando, fazendo com que os links do sub-menu possam ser mudados de cor. 
+
+Alinhamentos dos elementos. Mudança de fontes e estilização dos botões.
+
+dia 19/04/2021, finalizada a página de novo banho, tanto com cadastro quanto sem cadastro. Com estilizações.
+Criada também a página de busca realizada, (quando existe um cliente já cadastrado no sistema).

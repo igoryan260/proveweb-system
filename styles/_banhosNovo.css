@@ -1,0 +1,226 @@
+* {
+    font-family: 'montserrat';
+}
+
+.selectTypeOfSign {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+}
+
+.alinhamento {
+    margin: 0 auto;
+    width: 940px;
+    height: 420px;
+}
+
+.agendamento {
+    top: 1em;
+    width: 70%;
+    position: absolute;
+}
+
+.agendamento form {
+    display: flex;
+    flex-direction: column;
+    color: #4fafb7;
+    font-weight: 400;
+    font-size: 15pt;
+}
+
+
+/*Estilizando formulário */
+
+form div {
+    display: flex;
+    margin: .5rem 0;
+    align-items: center;
+}
+
+form div label {
+    flex-grow: 0;
+    margin-right: 2rem;
+}
+
+form div input[type="text"],
+form div input[type="datetime-local"],
+form div input[type="number"],
+form div input[type="date"] {
+    flex-grow: 1;
+    height: 20px;
+}
+
+form div input[type="radio"],
+form div input[type="checkbox"] {
+    margin: 0 .5rem
+}
+
+form select {
+    margin: .5rem 0;
+}
+
+
+/*adress*/
+
+.adress {
+    margin: 10px 0;
+}
+
+.adress input {
+    margin: 0 5px;
+    flex-grow: 1;
+}
+
+.adress div {
+    display: flex;
+    margin: 0;
+}
+
+.adress div label {
+    margin: 0;
+}
+
+
+/*estilização dos títulos das abas */
+
+.titlesOfScreen {
+    display: flex;
+    width: 100%;
+}
+
+.tituloAba {
+    background-color: #cfcfcf;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+}
+
+.tituloAba p {
+    font-size: 16pt;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+
+
+/**/
+
+section.submit {
+    margin: 5rem 0 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit button {
+    background: transparent;
+    border: none;
+    color: #4fafb7;
+}
+
+.submit input[type="submit"] {
+    background: transparent;
+    border: none;
+    color: #4fafb7;
+    font-size: 12pt;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit i {
+    font-weight: 200;
+    font-size: 12pt;
+    color: black;
+}
+
+.submit i.arrows {
+    color: #4fafb7;
+    font-weight: 600;
+}
+
+
+/*=====================================================================================================================*/
+
+
+/*
+ Ocultamento dos agendamentos na tela
+mudanças na cor dos titulos
+*/
+
+.display {
+    display: none;
+}
+
+.tituloAba .abaSelecionada {
+    color: #4fafb7;
+}
+
+
+/*|||||||||||||||||||||||||||||||estilos do agendamento com cadastro|||||||||||||||||||||||||||||||*/
+
+.formComCadastro {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.formComCadastro input {
+    margin: .5rem 0;
+}
+
+
+/*cor da fonte dos labels */
+
+.formComCadastro label {
+    color: #595959;
+}
+
+
+/*estilos dos inputs de envio e limpar */
+
+.formComCadastro input[type="submit"],
+input[type="reset"] {
+    background: transparent;
+    border: none;
+    margin: 0 .5rem;
+    font-size: 10pt;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+.formComCadastro input[type="submit"] {
+    color: white;
+    background-color: #4fafb7;
+    padding: .5rem 2rem;
+}
+
+.formComCadastro input[type="submit"]:hover {
+    background: transparent;
+    color: #4fafb7;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+.formComCadastro input[type="reset"] {
+    color: #ff0000;
+    border: solid 2px #ff0000;
+    padding: .4rem 2rem;
+}
+
+.formComCadastro input[type="reset"]:hover {
+    background-color: #ff0000;
+    color: white;
+}

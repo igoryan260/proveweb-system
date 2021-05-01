@@ -16,7 +16,7 @@
 .logo {
     background-color: white;
     height: 100%;
-    width: 190px;
+    width: 230px;
 }
 
 .logo figcaption {
@@ -110,6 +110,7 @@
 /*estilizando itens no interior do menu*/
 
 .menu ul ul {
+    position: fixed;
     display: none;
     background-color: white;
     border-radius: 10px;
