@@ -1,0 +1,101 @@
+    * {
+        font-family: 'montserrat';
+        color: #595959;
+    }
+    /*container formulario de forma de pagamento*/
+    
+    div#container-formFormaPagamento {
+        width: 900px;
+        margin: 0 auto;
+        display: flex;
+    }
+    /*h6*/
+    
+    h6 {
+        font-size: 10pt;
+        font-weight: 400;
+        margin: 2rem 0 3rem 0;
+    }
+    /*h2*/
+    
+    h2 {
+        color: #4fafb7;
+        font-weight: 500;
+    }
+    /*estilizando inputs de checkbox cartao ou dinheiro*/
+    
+    div#inputsFormaPagamento {
+        margin: 2rem 0;
+    }
+    
+    div#inputsFormaPagamento label {
+        font-size: 10pt;
+        font-weight: 600;
+    }
+    
+    #labelMoney {
+        margin-right: 3rem;
+    }
+    /* estilizando formulario*/
+    
+    #form-formaPagamento {
+        width: max-content;
+    }
+    /*div preço total*/
+    
+    div#precoPagar {
+        margin-bottom: 5rem;
+    }
+    
+    div#precoPagar h4,
+    i#precoTotal {
+        text-decoration: none;
+        font-size: 10pt;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    i#precoTotal {
+        line-height: 3rem;
+    }
+    /*div dos submit*/
+    
+    #container-buttons {
+        display: flex;
+    }
+    /*input submit*/
+    
+    input[type="submit"] {
+        text-decoration: none;
+        color: #f78305;
+        font-size: 12pt;
+        background: none;
+        border: none;
+        flex-grow: 1;
+        display: flex;
+        cursor: pointer;
+    }
+    /*estilizaão da div detalhes*/
+    
+    div#detalhes {
+        margin: 6.5rem 0 0 7rem;
+    }
+    
+    div#detalhes P {
+        font-size: 10pt;
+        width: 200px;
+        margin-top: 3rem;
+        font-weight: 500;
+    }
+    /*rodapé da pagina de pagamento*/
+    
+    #containerCodAtendimento {
+        width: 900px;
+        margin: 4rem auto 0;
+        clear: both;
+    }
+    
+    #codigoAtendimento {
+        color: #595959;
+        font-size: 12pt;
+    }

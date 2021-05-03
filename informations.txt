@@ -16,3 +16,15 @@ dia 19/04/2021, finalizada a página de novo banho, tanto com cadastro quanto se
 Criada também a página de busca realizada, (quando existe um cliente já cadastrado no sistema).
 
 dia 01/05/2021, hoje foram feitas várias alterações no index do sistema. Alterações no menu e nos links do menu. Foi adicionada nova página, banhos agendamento. Na tela de "banhos", terá um link no submenu chamado Agenda, quando clicar ali o javaScript vai rodar a função de colocar display none no iframe que ja estava aparecendo e colocará o display da tela "agenda". Veja!
+
+dia 02/05/2021, adicionada a página de "ver detalhes do agendamento feito". Também foram adicionados estilos para a própria página. Foram feitos algumas alterações como posição de armazenamento de arquivos. Cada item do menu terá uma pasta específica para armazená-los. Ex: Atendimento terá uma pasta chamada "atendimento" onde guardará todos os arquivos html referente a este link.
+
+dia 03/05/2021, hoje foi adicionada mais algumas páginas para dar sequência aos agendamentos de banhos. Acesse no link proveweb-system.netlify.app.
+
+ - Clique em atendimentos banhos.
+ - Com cadastro.
+ - Buscar.
+ - Avançar.
+ - Concluir.
+
+ Este é o caminho onde irá ver o frontend do conteúdo.

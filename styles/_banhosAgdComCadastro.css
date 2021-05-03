@@ -1,0 +1,101 @@
+* {
+    font-family: 'montserrat';
+    color: #595959;
+}
+
+#formAgdComCadastro {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+/*estilização do nome_porte*/
+
+h6 {
+    font-size: 10pt;
+    font-weight: 400;
+    margin: 2rem 0 3rem 0;
+}
+
+#agdComCadastro {
+    display: flex;
+}
+
+#agdComCadastro thead tr,
+#agdComCadastro tbody tr {
+    display: flex;
+    flex-direction: column;
+}
+
+#agdComCadastro thead tr th,
+#agdComCadastro tbody tr td {
+    line-height: 2rem;
+}
+
+
+/*estilização dos th's*/
+
+#agdComCadastro thead tr th {
+    color: #4fafb7;
+    font-weight: 500;
+    font-size: 15pt;
+    text-align: left;
+}
+
+
+/*inputs*/
+
+#inputIconCalender input[type="datetime-local"] {
+    appearance: none;
+    border: none;
+    margin-left: 1rem;
+}
+
+#inputIconCalender input[type="datetime-local"]:focus,
+input[type="datetime"]:focus {
+    outline: none;
+}
+
+
+/*div dos submit e link*/
+
+#container-buttons {
+    display: flex;
+}
+
+
+/*input submit*/
+
+input[type="submit"] {
+    text-decoration: none;
+    color: #f78305;
+    font-size: 12pt;
+    background: none;
+    border: none;
+    flex-grow: 1;
+    display: flex;
+    cursor: pointer;
+}
+
+
+/*link Voltar*/
+
+#link-voltar {
+    text-decoration: none;
+    color: #595959;
+    font-size: 10pt;
+    flex-grow: 1;
+}
+
+
+/*codigoAtendimento*/
+
+#containerCodAtendimento {
+    width: 900px;
+    margin: 10rem auto 0;
+}
+
+#codigoAtendimento {
+    color: #595959;
+    font-size: 12pt;
+}

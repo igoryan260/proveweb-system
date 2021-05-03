@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles/patern.css">
+    <link rel="stylesheet" href="../../styles/_banhosAgdComCadastro.css">
+    <!-- importação das fontes do font awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <!-- Importação concluída -->
+    <title>Banhos - Agenda</title>
+</head>
+
+<body>
+
+    <div>
+
+        <form action="./banhos-formaPagamento.html" id="formAgdComCadastro">
+
+            <h6>
+                Maik, porte médio
+            </h6>
+
+            <table id="agdComCadastro">
+                <thead>
+                    <tr>
+                        <th>Data/hora</th>
+                        <th>Agendar para</th>
+                        <th>Adicionais</th>
+                    </tr>
+                </thead>
+                <!-- Head of table-->
+                <tbody>
+                    <tr>
+                        <td><input type="datetime" name="horaAtendimento"></td>
+                        <td id="inputIconCalender"><input type="datetime-local" name="dataHoraAgendamento"></td>
+                        <td>
+                            <input type="checkbox" id="shampoo" name="shampooAntiPulgas"><label for="shampoo">&nbsp;Shampoo Anti-pulgas e carrapatos<br /></label>
+                            <input type="checkbox" name="tosa" id="tosa"><label for="tosa">&nbsp;Tosa</label>
+                        </td>
+                    </tr>
+                </tbody>
+                <!-- Body of table-->
+            </table>
+            <!-- Tabela agd com cadastro-->
+
+            <div id="container-buttons">
+                <input type="submit" value="Avançar">
+                <a href="./banhos-novo.html" id="link-voltar">Voltar</a>
+            </div>
+        </form>
+        <!-- formAgdComCadastro -->
+
+        <div id="containerCodAtendimento">
+            <i id="codigoAtendimento">código do atendimento: 0000</i>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

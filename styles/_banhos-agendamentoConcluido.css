@@ -1,0 +1,45 @@
+* {
+    font-family: 'montserrat';
+    color: #595959;
+}
+
+
+/*h6*/
+
+h6 {
+    font-size: 10pt;
+    font-weight: 400;
+    margin: 2rem 0 0rem 0;
+}
+
+
+/*h2*/
+
+h2 {
+    margin: 8rem 0;
+    color: #4fafb7;
+    font-weight: 400;
+    font-size: 30pt;
+}
+
+
+/*container formulario de forma de pagamento*/
+
+div#container-formFormaPagamento {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+/*estilização button*/
+
+div#container-buttons button {
+    background: none;
+    border: none;
+}
+
+div#container-buttons button a {
+    color: #f78305;
+    font-size: 12pt;
+    text-decoration: none;
+}

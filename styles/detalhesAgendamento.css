@@ -1,0 +1,38 @@
+* {
+    font-family: 'montserrat';
+    font-size: 15pt;
+    color: #595959;
+}
+
+#tabela-detalhesAgd {
+    display: flex;
+    width: max-content;
+    margin: 3rem auto 0;
+}
+
+#tabela-detalhesAgd thead tr th {
+    text-align: left;
+    font-weight: 500;
+}
+
+#tabela-detalhesAgd thead tr th,
+#tabela-detalhesAgd tbody tr td {
+    margin: .4rem;
+}
+
+#tabela-detalhesAgd thead tr,
+#tabela-detalhesAgd tbody tr {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*button*/
+
+#container-button a {
+    width: max-content;
+    float: right;
+    margin-right: 12rem;
+    text-decoration: none;
+    color: #4fafb7;
+}
