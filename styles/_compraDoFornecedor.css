@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+    color: #595959;
+}
+
+form {
+    display: flex;
+    position: relative;
+    max-width: 700px;
+    justify-content: center;
+    margin: 5rem auto 0;
+}
+
+
+/*estilos das divs*/
+
+form #ladoEsquerdo label,
+form #ladoDireito label {
+    display: block;
+}
+
+#ladoEsquerdo,
+#ladoDireito {
+    margin: 1rem;
+}
+
+
+/*labels*/
+
+label {
+    color: #4fafb7;
+    font-weight: 600;
+}
+
+
+/*Todos os inputs abaixo*/
+
+input {
+    width: 300px;
+    outline: none;
+    margin: .5rem 0 .5rem 0;
+    border: solid black 1.5px;
+    padding: 1px;
+}
+
+input[type="submit"] {
+    position: absolute;
+    width: min-content;
+    top: 20rem;
+    color: #f78305;
+}
+
+input[type="reset"] {
+    position: absolute;
+    width: min-content;
+    top: 20rem;
+    right: 2rem;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: none;
+    border: none;
+    font-size: 12pt;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/*valor total*/
+
+h4 {
+    margin: 2rem 0 1.5rem 2rem;
+}
+
+p {
+    margin: 0 0 0 2rem;
+}

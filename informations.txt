@@ -28,3 +28,9 @@ dia 03/05/2021, hoje foi adicionada mais algumas páginas para dar sequência ao
  - Concluir.
 
  Este é o caminho onde irá ver o frontend do conteúdo.
+
+ dia 09/05/2021, hoje foi adicionada mais duas páginas. A de cliente e novo cliente. Até o momento foi criado somente o conteúdo. Depois sera adicionado os estilos e javascript.
+
+ dia 12/05/2021, adicionado os estilos da página criada anteriormente. Várias divs para alinhar os elementos do formulario.
+  
+  dia 25/05/2021, adiionada novas páginas e estilizações. Também com novos scripts para funções nos botões.

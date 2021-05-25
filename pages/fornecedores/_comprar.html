@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/_compraDoFornecedor.css">
+    <title>Compra do fornecedor</title>
+</head>
+
+<body>
+    <div id="formularioCompraDoFornecedor">
+        <form action="#">
+
+            <div id="ladoEsquerdo">
+                <label for="nameProd">Nome do Produtos</label>
+                <input type="text" name="nameOfProduct" id="nameProd">
+                <label for="valueUnit">Valor unitário</label>
+                <input type="number" id="valueUnit">
+                <label for="descont">Desconto</label>
+                <input type="number" id="descont">
+                <label for="custsAdditionals">Custos adicionais</label>
+                <input type="number" id="custsAdditionals">
+                <label for="details">Detalhes</label>
+                <input type="text" id="details">
+
+            </div>
+            <!-- Lado esquerdo-->
+            <div id="ladoDireito">
+                <label for="quant">Quantidade</label>
+                <input type="number" id="quant">
+                <label for="dateOfPay">Data da compra</label>
+                <input type="date" id="dateOfPay">
+                <label for="fornec">Fornecedor</label>
+                <input type="text" id="fornec">
+
+                <div>
+                    <h4>Valor Total</h4>
+                    <p>
+                        R$ <i>0,00</i>
+                    </p>
+                </div>
+                <!-- Preço total -->
+
+            </div>
+            <!-- Lado direito-->
+            <div>
+                <input type="submit" value="Terminar">
+                <input type="reset" value="apagar">
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles/patern.css">
+
+    <link rel="stylesheet" href="../../styles/_novoCliente.css">
+    <!-- importação das fontes do font awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Novo Cliente</title>
+</head>
+
+<body>
+
+    <div id="containerFormulario">
+        <div id="contentFormulario">
+            <form id="formularioNovoCliente">
+                <section id="secaoDadosPessoais">
+                    <h3>Dados Pessoais</h3>
+                    <div class="divDisplayFlex">
+                        <div>
+                            <label for="name">Nome<br></label><input type="text" id="name">
+                        </div>
+                        <div>
+                            <label for="sobreNome">Sobrenome<br></label><input type="text" id="sobreNome">
+                        </div>
+                    </div>
+                    <div class="divDisplayFlex">
+                        <div>
+                            <label for="cpf">CPF</label><input type="number" maxlength="11" id="cpf">
+                        </div>
+                        <div>
+                            <label for="dateBirthday">Data de nascimento</label><input type="date" id="dateBirthday">
+                        </div>
+                    </div>
+                    <div class="divDisplayFlex">
+                        <div>
+                            <label for="tel">Telefone</label><input type="number" maxlentgh="11" id="tel">
+                        </div>
+                        <div>
+                            <label for="cel">Celular</label><input type="number" maxlentgh="11" id="cel">
+                        </div>
+                        <div>
+                            <label for="mail">E-mail</label><input type="mail" required id="mail">
+                        </div>
+                    </div>
+
+                </section>
+                <!--Dados pessoais-->
+                <section id="adress">
+                    <h3>Endereço</h3>
+                    <div class="divDisplayFlex">
+                        <div>
+                            <label for="runway">Rua</label><input type="text" id="runway">
+                        </div>
+                        <div>
+                            <label for="cep">CEP</label><input type="number" id="cep">
+                        </div>
+                        <div>
+                            <label for="number">Numero</label><input type="number" id="number">
+                        </div>
+                        <div>
+                            <label for="complement">Complemento</label><input type="text" id="complement">
+                        </div>
+                    </div>
+                </section>
+                <!--adress-->
+                <section id="pet">
+                    <h3>PET</h3>
+                    <div class="divDisplayFlex ">
+                        <div class="input-menor">
+                            <label for="namePet">Nome<br></label><input type="text" id="namePet">
+                        </div>
+                        <div>
+                            <label for="pet">Pet<br></label><select name="tipoPet" id="pet">
+                                <option value="cachorro">Cachorro</option>
+                                <option value="gato">Gato</option>
+                            </select>
+                        </div>
+
+
+                        <div class="displayFlex contentPorte">
+                            <h2>Porte</h2>
+                            <div>
+                                <div>
+                                    <input type="radio" name="porte" id="pequeno"><label for="pequeno">Pequeno</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="porte" id="medio"><label for="medio">Medio</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="porte" id="grande"><label for="grande">Grande</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="vacina">Vacinas<br></label><select name="vacina" id="vacina">
+                            <option value="antirabica">AntiRabica</option>
+                            <option value="vacinaMultiplaOuPolivalente">Vacina múltipla ou polivalente &#40;V8 e V10&#41;</option>
+                            <option value="vacinaGiardiase">Vacina contra a giardíase</option>
+                            <option value="outras">Outras</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="divDisplayFlex">
+                        <div>
+                            <label for="idade">Idade</label><input type="number" id="idade">
+                        </div>
+                        <div>
+                            <label for="aniversario">Aniversario</label><input type="date" id="aniversario">
+                        </div>
+                    </div>
+
+                </section>
+                <!--PET-->
+                <section id="buttons">
+                    <input type="submit" value="Adicionar">
+                    <a href="#" id="linkVoltar">Voltar</a>
+                </section>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

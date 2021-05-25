@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color: #595959;
+}
+
+h1 {
+    font-size: 12pt;
+    font-weight: 500;
+    margin: 2rem 0 0 2rem;
+}
+
+#container_tbl {
+    padding: 2rem 0 0 2rem;
+}
+
+#container_tbl table {
+    border-collapse: collapse;
+}
+
+#container_tbl table th,
+#container_tbl table td {
+    min-width: 140px;
+    text-align: left;
+    line-height: 25px;
+}
+
+#container_tbl table th:first-child,
+#container_tbl table td:first-child {
+    min-width: 30px;
+}
+
+#container_tbl table tbody tr:hover {
+    background-color: rgba(000, 000, 000, 0.060)
+}
+
+thead tr th {
+    color: #4fafb7;
+    font-weight: 500;
+}

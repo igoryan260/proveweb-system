@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../js/scriptAtendimentos.js">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/patern.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="../../styles/patern.css">
+    <link rel="stylesheet" href="../../styles/../styles/_paternSubMenu.css">
+
 
     <!-- importação das fontes do font awesome -->
 
@@ -16,18 +19,17 @@
 
     <!-- Importação concluída -->
 
-    <title>Page Initial</title>
+    <title>Banhos</title>
 </head>
 
 <body>
-
     <!-- menu-padrão em todas as páginas -->
     <header>
         <div class="main-menu">
             <div class="logo">
                 <figcaption>
                     <figure>
-                        <a href="./index.html"><img src="./image/logo.png" alt="logo" style="cursor: pointer;"></a>
+                        <a href="../../index.html"><img src="../../image/logo.png" alt="logo" style="cursor: pointer;"></a>
                     </figure>
                 </figcaption>
             </div>
@@ -39,11 +41,11 @@
 
                         <!-- Atendimentos -->
                         <li>
-                            <a href="#">Atendimento <i class="fas fa-chevron-up"></i></a>
+                            <a href="../atendimentos/banhos.html">Atendimento <i class="fas fa-chevron-up"></i></a>
                             <ul>
                                 <li class="button-link">
                                     <button type="button">
-                                        <a href="../pages/atendimentos/banhos.html">Banhos</a>
+                                        <a href="#">Banhos</a>
                                     </button>
                                     <button>
                                         <a href="#">Teste</a>
@@ -58,7 +60,7 @@
 
                         <!-- Clientess -->
                         <li>
-                            <a href="./pages/clientes/clientes.html">Clientes <i class="fas fa-chevron-up"></i></a>
+                            <a href="#">Clientes <i class="fas fa-chevron-up"></i></a>
                             <ul>
                                 <li class="button-link">
                                     <button>
@@ -72,7 +74,7 @@
                         </li>
                         <!-- Fornecedores -->
                         <li>
-                            <a href="./pages/fornecedores/fornecedores.html">Fornecedores <i class="fas fa-chevron-up"></i></a>
+                            <a href="../fornecedores/fornecedores.html">Fornecedores <i class="fas fa-chevron-up"></i></a>
                             <ul>
                                 <li class="button-link">
                                     <button>
@@ -146,6 +148,36 @@
         <!-- Main menu -->
     </header>
     <!-- Finalização do menu -->
+
+    <!-- sub-menu -->
+
+    <div class="sub-menu ">
+
+        <div class="title-screen">
+            <h2>Clientes</h2>
+        </div>
+        <div class="buttons">
+            <button id="novo">Novo</button>
+            <button id="atualizar">Atualizar</button>
+            <button id="excluir">Excluir</button>
+        </div>
+    </div>
+
+    <!-- Iframes -->
+
+    <section class="iframe " id="iframeNovoCliente">
+
+        <iframe src="././_novoCliente.html" frameborder="0" class="iframe-novo-cliente iframeDisplay"></iframe>
+
+    </section>
+    <!--iframe de novo cliente -->
+
+    <section class="display" id="iframeAtualizarCliente">
+        <iframe src="" frameborder="0" class="iframe-atualiza-cliente"></iframe>
+    </section>
+    <!--iframe de atualizar cliente -->
+
+    <!--script do js-->
 
 </body>
 

@@ -47,7 +47,8 @@
    }
    
    .iframe-novoBanho,
-   .iframe-agenda {
+   .iframe-agenda,
+   .iframeDisplay {
        width: 100%;
        height: 100%;
    }
