@@ -63,8 +63,7 @@
 #menu-right {
     flex-grow: 1;
     display: flex;
-    justify-content: flex-end;
-    padding-right: 1rem;
+    justify-content: center;
 }
 
 #menu-right li {
@@ -74,9 +73,9 @@
 
 /*icon of configurations*/
 
-.fas.fa-cog {
+.fas.fa-power-off {
     color: #1fade7;
-    text-shadow: black 0px 0px 5px;
+    text-shadow: black 0px 0px 2px;
 }
 
 
@@ -104,13 +103,33 @@
     transition: .2s;
 }
 
-.menu ul li a:hover {
+.menu ul.menu-esquerdo li a:hover {
     font-size: 16pt;
     transition: .2s;
 }
 
 .menu ul li a.pageSelected {
     color: #456c89;
+}
+
+
+/*estilização do botão sair*/
+
+.menu-direito ul {
+    margin-right: 2rem;
+}
+
+.menu-direito li {
+    text-align: center;
+}
+
+.menu-direito li a {
+    margin: 0 auto;
+}
+
+.menu-direito ul li a {
+    color: #456c89;
+    width: max-content;
 }
 
 

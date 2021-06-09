@@ -56,6 +56,10 @@ dia 03/05/2021, hoje foi adicionada mais algumas páginas para dar sequência ao
    - atualizar Fornecedores
    - atualizar clientes
 
-   dia 09/06/2021, atualização do menu. Cores dos botões da página em que o usuario estiver
+   dia 09/06/2021, atualização do menu. Cores dos botões da página em que o usuario estiver.
+
+    - link de sair alterado
+    - link de configurações deletada
+    - página de excluir produto adicionada
 
    
