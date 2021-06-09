@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    outline: none;
+}
+
+#contentDivs {
+    display: flex;
+    width: 930px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#div-left,
+#div-right {
+    width: 410px;
+    align-self: center;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+#div-left {
+    padding-right: 1rem;
+}
+
+#div-right {
+    height: 323px;
+    border-left: solid #cdcdcd 1px;
+    padding-left: 1rem;
+}
+
+
+/*titulo h2*/
+
+#div-left h2,
+#div-right h2 {
+    text-align: center;
+    margin: 2rem;
+    color: #f78305;
+}
+
+#formularioGerarBoleto {
+    align-content: center;
+    height: 230px;
+}
+
+#formularioGerarBoleto div {
+    margin: .5rem 0;
+}
+
+#formularioGerarBoleto label,
+#formularioGerarRelatorio label {
+    color: #4fafb7;
+    font-weight: 600;
+    margin: 1rem 1rem 0 0;
+}
+
+#formularioGerarBoleto input {
+    border: solid black 1px;
+}
+
+
+/*input do digito*/
+
+input.inputDigito {
+    width: 50px;
+}
+
+
+/*estilos do input submit gerar boleto e relatorio */
+
+#formularioGerarBoleto input[type="submit"],
+#formularioGerarRelatorio input[type="submit"] {
+    background: none;
+    color: #f78305;
+    border: none;
+    font-size: 10pt;
+    font-weight: 600;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+/*estilo input date relatorio*/
+
+#formularioGerarRelatorio input[type="date"] {
+    border: none;
+    margin-top: 1rem;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/_estoqueProduto.css">
+
+    <title>Estoque</title>
+</head>
+
+<body>
+    <div id="content">
+        <div id="busca">
+            <form action="#" id="form-busca">
+                <input type="text" placeholder="Buscar" id="inputTextBox">
+
+                <div id="container-formBusca" class="display-none">
+                    <div id="tipoBusca">
+                        <ul>
+                            <li>Nome</li>
+                            <li>ID</li>
+                            <li>Codigo</li>
+                        </ul>
+                        <button id="fecharFormulario">Fechar</button>
+                    </div>
+                    <!--div tipo busca-->
+
+                    <div id="conclude">
+                        <input type="submit" value="Concluir">
+                        <input type="reset" value="Limpar">
+                    </div>
+                    <!-- Div conclude-->
+                </div>
+
+            </form>
+            <!--form-->
+
+        </div>
+        <!--div busca-->
+
+        <div id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>ID</th>
+                        <th>código</th>
+                        <th>qntd</th>
+                        <th>descrição</th>
+                    </tr>
+                </thead>
+                <!--thead-->
+                <tbody>
+                    <tr>
+                        <td>Example</td>
+                        <td>001</td>
+                        <td>12035</td>
+                        <td>320</td>
+                        <td>Example of description</td>
+                    </tr>
+                    <tr>
+                        <td>Example Dois</td>
+                        <td>010</td>
+                        <td>20353</td>
+                        <td>153</td>
+                        <td>Example of description</td>
+                    </tr>
+                </tbody>
+                <!--tbody-->
+            </table>
+            <!--table-->
+        </div>
+
+    </div>
+    <!--div content-->
+</body>
+<script src="../../js/_estoqueProdutos.js"></script>
+
+</html>

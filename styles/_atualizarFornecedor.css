@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color: #595959;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+section.displayFlex {
+    justify-content: space-between;
+}
+
+h3 {
+    margin-left: -2rem;
+}
+
+#contentFormulario {
+    width: 900px;
+    margin: 4rem auto 0;
+}
+
+label {
+    margin-right: 2px;
+    color: #4fafb7;
+    font-weight: 500
+}
+
+input {
+    max-width: 310px;
+    flex-grow: 1;
+    outline: none;
+    border: solid 1px #595959;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+section div div {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 0;
+}
+
+.prodFornece {
+    margin: 1rem 0;
+}
+
+input[type="submit"] {
+    background: none;
+    color: #f78305;
+    border: none;
+}
+
+#enviar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a,
+input[type="submit"] {
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: 500;
+    margin: 2rem 1rem 0;
+    flex-grow: 0;
+    cursor: pointer;
+}

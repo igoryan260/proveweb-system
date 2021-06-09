@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    outline: none;
+}
+
+h2 {
+    color: #f78305;
+    font-weight: 500;
+    font-size: 15pt;
+    margin-bottom: 1rem;
+}
+
+legend {
+    color: #595959;
+    font-size: 15pt;
+}
+
+
+/*formulario criar promocao*/
+
+#contentFormulario {
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+section#contentSuperior {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+section#contentSuperior div {
+    max-width: 300px;
+}
+
+
+/*alinhamentos produtos próximos do vencimento*/
+
+div#produtosProximosVencimento input {
+    display: block;
+    margin-right: .3rem;
+}
+
+div#produtosProximosVencimento div {
+    margin-top: .3rem;
+    display: flex;
+    align-items: center;
+}
+
+
+/*produtos incluidos na promoção*/
+
+div#produtosIncluidos table tr td {
+    padding: .3rem 1.5rem .3rem 0;
+}
+
+
+/*formulario para procura de produto*/
+
+input#prod {
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+table#tabelaProcurarProduto tbody tr td {
+    color: #4fafb7;
+    font-weight: 600;
+}
+
+#tabelaProcurarProduto button {
+    background: none;
+    color: #f78305;
+    border: none;
+    font-weight: 600;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+
+/*conteúdo inferior*/
+
+#contentInferior {
+    margin-top: 7rem;
+}
+
+#divConteudoInferior {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#divDatas {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+}
+
+#divDatas label {
+    color: #4fafb7;
+    font-weight: 500;
+}
+
+#divDatas input {
+    margin: .2rem 0;
+}
+
+
+/*estilizando inputs e links*/
+
+#divConteudoInferior input[type="submit"],
+#divConteudoInferior a {
+    color: #f78305;
+    font-size: 15pt;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+
+#divConteudoInferior a {
+    text-decoration: none;
+    color: #595959;
+}

@@ -7,12 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="../js/fornecedores.js">
+    <link rel="stylesheet" href="../js/scriptAtendimentos.js">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../styles/patern.css">
-
-    <link rel="stylesheet" href="../../styles/../styles/_paternSubMenu.css">
-
+    <link rel="stylesheet" href="../../styles/_paternSubMenu.css">
 
 
     <!-- importação das fontes do font awesome -->
@@ -21,7 +19,7 @@
 
     <!-- Importação concluída -->
 
-    <title>Fornecedores</title>
+    <title>Imprimir</title>
 </head>
 
 <body>
@@ -52,7 +50,7 @@
                         </li>
                         <!-- Fornecedores -->
                         <li>
-                            <a href="#" class="pageSelected">Fornecedores <i class="fas fa-chevron-up"></i></a>
+                            <a href="../fornecedores/fornecedores.html">Fornecedores <i class="fas fa-chevron-up"></i></a>
                         </li>
                         <!-- Produtos -->
                         <li>
@@ -60,9 +58,10 @@
                         </li>
                         <!-- imprimir -->
                         <li>
-                            <a href="#">Imprimir <i class="fas fa-chevron-up"></i></a>
+                            <a href="#" class="pageSelected">Imprimir <i class="fas fa-chevron-up"></i></a>
                         </li>
                     </ul>
+
                     <!-- sair, configurations -->
                     <ul id="menu-right">
                         <li>
@@ -86,35 +85,31 @@
 
     <div class="sub-menu ">
 
-        <div class="title-screen">
-            <h2>Fornecedores</h2>
+        <div class="title-screen ">
+            <h2>Imprimir</h2>
         </div>
-        <div class="buttons">
-            <button id="novo">Novo</button>
-            <button id="comprar">Comprar</button>
-            <button id="verFornecedores">Ver fornecedores</button>
+        <div class="buttons ">
+            <button id="boletosRelatorios">Boletos e Relatórios</button>
+            <button id="nfe">Ver NF-e</button>
         </div>
+
     </div>
 
-    <!-- Iframes -->
+    <!--Iframes -->
 
-    <section class="iframe" id="iframeNovoFornecedor">
-
-        <iframe src="././_novoFornecedor.html" frameborder="0" class="iframe-novo-fornecedor iframeDisplay"></iframe>
-
+    <section class="iframe" id="iframeBoletosRelatorios">
+        <iframe src="./././_boletosRelatorios.html" frameborder="0" class="iframe-boletosRelatorios iframeDisplay"></iframe>
     </section>
-    <!--iframe de ver fornecedores -->
+    <!--iframe boletos e relatorios -->
 
-    <section class="display" id="iframeVerFornecedores">
-        <iframe src="./././././verFornecedor.html" frameborder="0" class="iframe-ver-fornecedor iframeDisplay"></iframe>
+    <section class="display" id="iframeNfe">
+        <iframe src="././_nfe.html" frameborder="0" class="iframe-nfe iframeDisplay"></iframe>
     </section>
+    <!--iframe nota fiscal eletronica nfe-->
 
-    <!--iframe de compras do fornecedor -->
-    <section class="display" id="iframeCompraDoFornecedor">
-        <iframe src="./././././././_comprar.html" frameborder="0" class="iframe-comprar-do-fornecedor iframeDisplay"></iframe>
-    </section>
+    <!-- Script abaixo -->
+    <script src="../../js/imprimir.js"></script>
 
-    <script src="../../js/fornecedores.js"></script>
 </body>
 
 </html>

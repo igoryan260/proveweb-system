@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/_novoProduto.css">
+    <title>Novo produto</title>
+</head>
+
+<body>
+
+    <div id="containerFormNewProd">
+        <div id="formulario">
+            <form action="#">
+                <!-- Cada div destas abaixo servem para deixar o label e o input numa mesma linha e sem deixar nenhum ao lado-->
+
+                <div>
+                    <label for="nameProd">Nome do produto</label><input type="text" id="nameProd">
+                </div>
+                <div>
+                    <label for="descriProd">Descrição do produto</label><input type="text" id="descriProd">
+                </div>
+                <div>
+                    <label for="value">Valor do produto</label><input type="number" id="value">
+                </div>
+                <div>
+                    <label for="codProd">Cód. do produto</label><input type="text " id="codProd">
+                </div>
+                <div>
+                    <label for="notaFiscal">Nota fiscal do produto</label><input type="text " id="notaFiscal">
+                </div>
+                <div>
+                    <label for="dataAtual">Data atual</label><input type="date" id="dataAtual">
+                </div>
+                <div>
+                    <label for="precoPorUnit">Preço de venda por unidade</label><input type="number" id="precoPorUnit">
+                </div>
+                <div>
+                    <label for="idOfProd" id="identificadorProd">Id do produto&#40;Somente no sistema&#41;</label><input type="number" id="idOfProd" readonly>
+                </div>
+
+                <div id="buttons">
+                    <input type="submit" value="Adicionar">
+                    <input type="reset" value="Limpar">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -5,14 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="../js/fornecedores.js">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../styles/patern.css">
-
-    <link rel="stylesheet" href="../../styles/../styles/_paternSubMenu.css">
-
+    <link rel="stylesheet" href="../../styles/_paternSubMenu.css">
 
 
     <!-- importação das fontes do font awesome -->
@@ -21,10 +17,11 @@
 
     <!-- Importação concluída -->
 
-    <title>Fornecedores</title>
+    <title>Produtos</title>
 </head>
 
 <body>
+
     <!-- menu-padrão em todas as páginas -->
     <header>
         <div class="main-menu">
@@ -49,18 +46,22 @@
                         <!-- Clientess -->
                         <li>
                             <a href="../clientes/clientes.html">Clientes <i class="fas fa-chevron-up"></i></a>
+
                         </li>
                         <!-- Fornecedores -->
                         <li>
-                            <a href="#" class="pageSelected">Fornecedores <i class="fas fa-chevron-up"></i></a>
+                            <a href="../fornecedores/fornecedores.html">Fornecedores <i class="fas fa-chevron-up"></i></a>
+
                         </li>
                         <!-- Produtos -->
                         <li>
-                            <a href="../produtos/produtos.html">Produtos <i class="fas fa-chevron-up"></i></a>
+                            <a href="#" class="pageSelected">Produtos <i class="fas fa-chevron-up"></i></a>
+
                         </li>
                         <!-- imprimir -->
                         <li>
-                            <a href="#">Imprimir <i class="fas fa-chevron-up"></i></a>
+                            <a href="../imprimir/imprimir.html">Imprimir <i class="fas fa-chevron-up"></i></a>
+
                         </li>
                     </ul>
                     <!-- sair, configurations -->
@@ -82,39 +83,65 @@
     </header>
     <!-- Finalização do menu -->
 
-    <!-- sub-menu -->
+
 
     <div class="sub-menu ">
 
         <div class="title-screen">
-            <h2>Fornecedores</h2>
+            <h2>Produtos</h2>
         </div>
         <div class="buttons">
             <button id="novo">Novo</button>
-            <button id="comprar">Comprar</button>
-            <button id="verFornecedores">Ver fornecedores</button>
+            <button id="atualizar">Atualizar</button>
+            <button id="venda">Venda</button>
+            <button id="estoque">Estoque</button>
+            <button id="promocoes">Promoções</button>
+            <button id="notificacoes">Notificações</button>
+            <button id="excluir">Excluir</button>
         </div>
     </div>
+    <!-- sub-menu -->
 
-    <!-- Iframes -->
-
-    <section class="iframe" id="iframeNovoFornecedor">
-
-        <iframe src="././_novoFornecedor.html" frameborder="0" class="iframe-novo-fornecedor iframeDisplay"></iframe>
-
+    <section id="iframeNovoProduto" class="iframe">
+        <iframe src="./././_novoProduto.html" frameborder="0" class="iframe-novo-produto iframeDisplay"></iframe>
     </section>
-    <!--iframe de ver fornecedores -->
+    <!-- Iframe novo produto -->
 
-    <section class="display" id="iframeVerFornecedores">
-        <iframe src="./././././verFornecedor.html" frameborder="0" class="iframe-ver-fornecedor iframeDisplay"></iframe>
+    <section id="iframeAtualizarProduto" class="display">
+        <iframe src="././././_atualizarProduto.html" frameborder="0" class="iframe-atualizar-produto iframeDisplay"></iframe>
     </section>
+    <!-- Iframe atualizar produto-->
 
-    <!--iframe de compras do fornecedor -->
-    <section class="display" id="iframeCompraDoFornecedor">
-        <iframe src="./././././././_comprar.html" frameborder="0" class="iframe-comprar-do-fornecedor iframeDisplay"></iframe>
+    <section id="iframeVendaProduto" class="display">
+        <iframe src="././_vendaProduto.html" frameborder="0" class="iframe-venda-produto iframeDisplay"></iframe>
     </section>
+    <!--iframe venda do produto-->
 
-    <script src="../../js/fornecedores.js"></script>
+    <section id="iframeEstoqueProduto" class="display">
+        <iframe src="././././././_estoqueProduto.html" frameborder="0" class="iframe-estoque-produto iframeDisplay"></iframe>
+    </section>
+    <!--Iframe de estoque do produto-->
+
+    <section id="iframePromocoesProduto" class="display">
+        <iframe src="././././././././_criarPromocao.html" frameborder="0" class="iframe-promocoes-produto iframeDisplay"></iframe>
+    </section>
+    <!-- Iframe de promoções de produto-->
+
+    <section id="iframeNotificacoes" class="display">
+        <iframe src="./././_notificacoes.html" frameborder="0" class="iframe-notificacoes iframeDisplay"></iframe>
+    </section>
+    <!-- Iframe notificacoes de promocoes ou produtos-->
+
+    <section id="iframeExcluirProduto" class="display">
+        <iframe src="./././././././././_excluirProduto.html" frameborder="0" class="iframe-excluir-produto iframeDisplay"></iframe>
+    </section>
+    <!-- Iframe excluir produto-->
+
+
+
+    <!-- Script da página de produtos-->
+    <script src="../../js/scriptProdutos.js"></script>
+
 </body>
 
 </html>

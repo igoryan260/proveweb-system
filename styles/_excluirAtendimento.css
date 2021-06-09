@@ -1,0 +1,10 @@
+* {
+    font-family: 'montserrat';
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input.excluirSelecionado {
+    color: #ff0000;
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+#content {
+    width: max-content;
+    margin: 3rem auto;
+    display: flex;
+}
+
+#form-busca {
+    position: relative;
+}
+
+#inputTextBox {
+    border: none;
+    outline: none;
+    background: url(../image/icons/search-solid.svg);
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+}
+
+div#tipoBusca {
+    padding: .5rem 2rem .5rem .5rem;
+    box-shadow: black 0px 0px 10px 0px;
+    width: max-content;
+    margin: 1rem;
+    background: url(../image/icons/filter-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 90% 10%;
+}
+
+div#tipoBusca ul li {
+    list-style: none;
+    cursor: pointer;
+    margin: .5rem 0;
+    width: min-content;
+    color: #f78305;
+}
+
+div#tipoBusca ul li:hover {
+    background: rgba(0, 0, 0, .050);
+}
+
+
+/*classe para desaparecer conteúdos*/
+
+.display-none {
+    display: none;
+}
+
+
+/*estilos da tabela*/
+
+table {
+    border-collapse: collapse;
+}
+
+thead th {
+    color: #4fafb7;
+    font-weight: 500;
+    padding: 1rem 2rem 1rem 2rem;
+    border-bottom: 1.5px black solid;
+    border-left: 1.5px solid black;
+}
+
+thead th:first-child {
+    border-left: none;
+}
+
+tbody td {
+    padding: 1rem 2rem;
+    border-left: solid black 1.5px;
+}
+
+tbody td:first-child {
+    border-left: none;
+}
+
+
+/*posicionando e estilizando os inputs de limpar e enviar*/
+
+div#busca {
+    height: 100%;
+    min-height: 360px;
+}
+
+#conclude {
+    width: max-content;
+    margin: 0 auto;
+}
+
+#conclude input {
+    color: #f78305;
+    border: none;
+    background: none;
+    font-size: 12pt;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+#conclude input[type="reset"] {
+    color: #595959;
+}
+
+
+/*estilizando button fechar formulario*/
+
+#tipoBusca button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

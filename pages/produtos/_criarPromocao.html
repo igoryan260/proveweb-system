@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/_criarPromocao.css">
+    <title>Promoção</title>
+</head>
+
+<body>
+
+
+    <div id="contentFormulario">
+        <form action="#" id="formCriarPromocao">
+            <section id="contentSuperior">
+                <div id="produtosProximosVencimento">
+                    <h2>Produtos próximos do vencimento</h2>
+                    <div>
+                        <input type="checkbox" name="prod" id="produtoUm"><label for="produtoUm">Nome do produto um</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="prod" id="produtoDois"><label for="produtoDois">Nome do produto dois</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="prod" id="produtoTres"><label for="produtoTres">Nome do produto tres</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="prod" id="produtoQuatro"><label for="produtoQuatro">Nome do produto quatro</label>
+                    </div>
+                </div>
+                <div id="produtosIncluidos">
+                    <h2>Produtos incluidos na promoção</h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Nome do produto</td>
+                                <td>R$ 0,00</td>
+                            </tr>
+                            <tr>
+                                <td>Nome do produto </td>
+                                <td>R$ 0,00</td>
+                            </tr>
+                            <tr>
+                                <td>Nome do produto </td>
+                                <td>R$ 0,00</td>
+                            </tr>
+                        </tbody>
+                        <!-- Tbody -->
+                    </table>
+                    <!-- Table -->
+                </div>
+                <div>
+                    <form action="#" id="formProcurarProduto">
+                        <div>
+                            <legend>Procurar</legend>
+                            <input type="text" name="produto" id="prod">
+                        </div>
+                        <div>
+                            <table id="tabelaProcurarProduto">
+                                <tbody>
+                                    <tr>
+                                        <td>Nome do produto</td>
+                                        <td><button type="submit">adicionar</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nome do produto</td>
+                                        <td><button type="submit">adicionar</button></td>
+                                    </tr>
+                                </tbody>
+                                <!--tbody-->
+                            </table>
+                            <!--table-->
+                        </div>
+                        <!--div pesquisa produto-->
+                    </form>
+                    <!-- Formulario procurar produto-->
+                </div>
+            </section>
+            <!--section top  content -->
+
+            <section id="contentInferior">
+                <div id="divConteudoInferior">
+                    <div id="divDatas">
+                        <label for="dataInicio">De</label><input type="date" id="dataInicio">
+                        <label for="dataFim">Até</label><input type="date" name="dataFinal" id="dataFim">
+                        <label for="desconto">Desconto</label><input type="number" name="desc" id="desconto">
+                    </div>
+                    <div>
+                        <input type="submit" value="Criar Promoção">
+                        <a href="../produtos/_novoProduto.html">Inicio</a>
+                    </div>
+                </div>
+            </section>
+            <!-- section botton content-->
+        </form>
+    </div>
+
+
+</body>
+
+</html>

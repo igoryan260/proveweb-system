@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles/patern.css">
+
+    <link rel="stylesheet" href="../../styles/_atualizarFornecedor.css">
+    <!-- importação das fontes do font awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title> Atualizar Fornecedor</title>
+</head>
+
+<body>
+
+    <div id="containerFormulario">
+        <div id="contentFormulario">
+            <form id="formularioNovoCliente">
+
+                <h3>Dados pessoais</h3>
+
+                <section class="displayFlex">
+
+                    <div>
+
+                        <div>
+                            <label for="razaoSocial">Razão Social</label>
+                            <input type="text" id="razaoSocial" value="example">
+                        </div>
+                        <div>
+                            <label for="cnpj">CNPJ</label>
+                            <input type="number" id="cnpj" value="0000000">
+                        </div>
+                        <div>
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" value="116423124">
+
+                            <label for="celular">Celular</label>
+                            <input type="tel" id="celular" value="11945668987">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="nameFantasy">Nome fantasia</label>
+                            <input type="text" id="nameFantasy" value="example">
+                        </div>
+                        <div>
+                            <label for="encarregado">Encarregado</label>
+                            <input type="text" id="encarregado" value="example">
+                        </div>
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="mail" id="email" value="nomedaempresa@business.com">
+                        </div>
+                    </div>
+
+                </section>
+                <div class="prodFornece">
+                    <label for="prodFornece">Qual produto fornece?</label>
+                    <input type="text" id="prodFornece" value="example">
+                </div>
+                <!-- dados pessoais -->
+
+
+                <section id="endereco">
+                    <h3>
+                        Endereço
+                    </h3>
+                    <div class="displayFlex">
+
+                        <div>
+                            <label for="rua">Rua</label><input type="text" id="rua" value="Rua varejista">
+                        </div>
+                        <div>
+                            <label for="cep">CEP</label><input type="text " id="cep" value="13246899">
+                        </div>
+                        <div>
+                            <label for="numero">Número</label><input type="number" id="numero" value="1235">
+                        </div>
+                        <div>
+                            <label for="complemento">Complemento</label><input type="text" id="complemento" value="Ap 0234">
+                        </div>
+                    </div>
+                </section>
+                <!-- Adress-->
+                <div id="enviar">
+                    <div>
+                        <input type="submit" value="Atualizar">
+                        <a href="./verFornecedor.html ">voltar</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

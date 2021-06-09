@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/_atualizarCliente.css">
+    <title>Atualizar Cliente</title>
+</head>
+
+<body>
+
+    <p><strong>Selecione a bolinha à esquerda do cliente que quer modificar</strong></p>
+
+    <form action="./_editaInformacaoCliente.html" id="formularioClientes">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <!--Esta celula está vazia para dar espaço o suficiente para o input-->
+                    </th>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Data Nascimento</th>
+                    <th>Celular</th>
+                    <th>E-mail</th>
+                    <th>Rua</th>
+                    <th>Nome do Pet</th>
+                    <th>Data de Nascimento</th>
+                </tr>
+            </thead>
+            <!--head da tabela-->
+
+            <tbody>
+                <tr>
+                    <th><input type="radio" id="0012" name="cliente"></th>
+                    <td>0012</td>
+                    <td>Andressa</td>
+                    <td>154.565.789-40</td>
+                    <td>03/10/2000</td>
+                    <td>1146678990</td>
+                    <td>andressa@hotmail.com</td>
+                    <td>Rua Campo Mourão</td>
+                    <td>Lili</td>
+                    <td>03/01/2015</td>
+                </tr>
+
+                <tr>
+                    <th><input type="radio" id="0013" name="cliente"></th>
+                    <td>0013</td>
+                    <td>Marcio</td>
+                    <td>154.535.648-10</td>
+                    <td>12/09/1998</td>
+                    <td>1146780890</td>
+                    <td>marciodosanjos@hotmail.com</td>
+                    <td>Rua Silveiras</td>
+                    <td>Lua</td>
+                    <td>12/03/2012</td>
+                </tr>
+            </tbody>
+            <!-- tbody da tabela-->
+        </table>
+
+        <input type="submit" value="Atualizar Selecionado">
+    </form>
+
+</body>
+
+</html>

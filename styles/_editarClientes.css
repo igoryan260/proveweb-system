@@ -1,0 +1,129 @@
+* {
+    font-family: 'montserrat';
+    color: #595959;
+    margin: 0;
+    padding: 0;
+}
+
+#formularioNovoCliente {
+    margin: 3rem 0;
+}
+
+#contentFormulario {
+    width: 925px;
+    margin: 0 auto;
+}
+
+
+/*titulo das secoes*/
+
+h3 {
+    font-size: 12pt;
+    color: #595959;
+    margin: .5rem 0 0 -2rem;
+    font-weight: 500;
+}
+
+
+/*labels*/
+
+label,
+h2 {
+    font-size: 12pt;
+    color: #4fafb7;
+    font-weight: 500;
+}
+
+
+/*classe para deixar os conteudos na mesma linha*/
+
+.divDisplayFlex {
+    display: flex;
+}
+
+
+/*classe para deixar os elementos alinhados*/
+
+.divDisplayFlex div {
+    flex-grow: 1;
+    margin: .5rem 0 0;
+}
+
+
+/*classe para tirar os contornos dos inputs e tamanho*/
+
+.divDisplayFlex input {
+    width: 96%;
+    outline: none;
+}
+
+
+/*este é para alguns containers específicos */
+
+.displayFlex div {
+    display: flex;
+}
+
+.input-menor input {
+    width: 80%;
+}
+
+
+/*configurando os elementos da seção do pet*/
+
+section#pet .divDisplayFlex div {
+    flex-grow: 0;
+}
+
+.contentPorte {
+    width: 350px;
+    padding: 0 1rem;
+}
+
+.contentPorte div div {
+    width: 100px;
+    margin-top: 0;
+}
+
+
+/*cor das bordas de todos os inputs*/
+
+input,
+select {
+    outline: none;
+    border: 1px solid #595959;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+select {
+    border: none;
+    color: #4fafb7;
+}
+
+
+/* buttons adicionar e voltar*/
+
+#buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+input[type="submit"] {
+    color: #f78305;
+    border: none;
+    background: none;
+    font-size: 12pt;
+    margin: 0 1rem 0 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#buttons a {
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}

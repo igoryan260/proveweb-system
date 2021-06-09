@@ -10,13 +10,17 @@ var iframeAgenda = document.querySelector("#iframeAgenda");
 novo.addEventListener("click", function() {
     iframeNovoBanho.className = "iframe";
     iframeAgenda.className = "display";
+    iframeExcluirBanho.className = "display";
 });
 
 excluir.addEventListener("click", function() {
     iframeNovoBanho.className = "display";
+    iframeExcluirBanho.className = "iframe";
+    iframeAgenda.className = "display";
 });
 
 agenda.addEventListener("click", function() {
     iframeAgenda.className = "iframe";
+    iframeExcluirBanho.className = "display";
     iframeNovoBanho.className = "display";
 })

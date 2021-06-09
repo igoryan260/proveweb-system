@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/_boletosRelatorios.css">
+    <title>Boletos e Relatórios</title>
+</head>
+
+<body>
+
+    <div id="contentDivs">
+        <div id="div-left">
+            <h2>Boletos</h2>
+
+            <form action="#" id="formularioGerarBoleto">
+                <div>
+                    <label for="bank">Banco para Recebimento</label><input type="text" id="bank">
+                </div>
+                <div>
+                    <label for="agencia">Agencia</label><input type="number" id="agencia">
+                </div>
+                <div>
+                    <label for="conta">Conta</label><input type="number" id="conta">
+                    <label for="dig">Dig.</label><input type="number" id="Dig" class="inputDigito">
+                </div>
+                <div>
+                    <label for="juros">Juros ao mês</label><input type="number" id="juros">
+                </div>
+                <div>
+                    <label for="multa">Multa</label><input type="number" id="multa">
+                </div>
+
+                <input type="submit" value="Gerar Boleto">
+            </form>
+
+        </div>
+        <div id="div-right">
+            <h2>Relatórios</h2>
+            <form action="#" id="formularioGerarRelatorio">
+                <div>
+                    <label for="data">Relatorio da semana</label>
+                    <div>
+                        <input type="date" id="data">
+                    </div>
+                </div>
+                <input type="submit" value="Gerar Relatorio">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

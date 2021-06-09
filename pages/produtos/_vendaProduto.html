@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/_vendaProduto.css">
+    <title>Venda produto</title>
+</head>
+
+<body>
+
+    <div id="containerFormVenda">
+        <div id="formulario">
+            <form action="#">
+
+                <h4>Dados do cliente</h4>
+
+                <div id="dadosDoCliente">
+                    <div>
+                        <label for="nameOfClient">Nome do cliente</label>
+                        <input type="text " id="nameOfClient">
+                    </div>
+
+                    <div>
+                        <label for="date">Data</label>
+                        <input type="date" id="date">
+                    </div>
+
+                    <div>
+                        <label for="codVenda">Cód. Venda</label>
+                        <input type="number" id="codVenda" readonly>
+                    </div>
+                </div>
+                <!-- dados do cliente -->
+
+                <h4>Carrinho</h4>
+
+                <div id="carrinho">
+                    <div>
+                        <label for="nameOfProd">Nome do produto</label>
+                        <input type="text" id="nameOfProd">
+                    </div>
+
+                    <div>
+                        <label for="idProd">Id do produto</label>
+                        <input type="text" id="idProd">
+                    </div>
+
+                    <div>
+                        <label for="quant">Quantidade de produto</label>
+                        <input type="number" id="quant">
+                    </div>
+
+                    <div>
+                        <label for="desc">Desconto</label>
+                        <input type="number" id="desc">
+                    </div>
+                </div>
+
+                <!-- Mais items no carrinho -->
+                <i id="adicionarMaisProdutos">&plus;</i>
+                <!-- Carrinho -->
+
+                <div id="resultados">
+                    <div>
+                        <h6>Desconto</h6>
+                        <p>R$<i id="desconto">0,00</i></p>
+                    </div>
+                    <div>
+                        <h6>Total</h6>
+                        <p>R$<i id="total">0,00</i></p>
+                    </div>
+                </div>
+                <!-- Resultados valores -->
+
+                <div id="buttons">
+                    <input type="submit" value="Vender">
+                    <input type="reset" value="Limpar">
+                </div>
+                <!-- div buttons -->
+
+            </form>
+            <!--formulario-->
+        </div>
+        <!-- div formulario-->
+    </div>
+    <!-- Container formulario venda-->
+
+</body>
+
+</html>

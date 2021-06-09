@@ -34,3 +34,28 @@ dia 03/05/2021, hoje foi adicionada mais algumas páginas para dar sequência ao
  dia 12/05/2021, adicionado os estilos da página criada anteriormente. Várias divs para alinhar os elementos do formulario.
   
   dia 25/05/2021, adiionada novas páginas e estilizações. Também com novos scripts para funções nos botões.
+
+  dia 26/05/2021, adicionadas novas páginas:
+
+  - novo produto, juntamente com suas estilizações
+  - venda de produto, e suas estilizações
+
+  dia 31/05/2021, criação e finalização de algumas página de produtos, tais como estoque e adicionar promoções em produtos vencido ou não. 
+
+  foram feitas as estilizações também destas páginas. O que restará fazer no decorrer do tempo são os links com o javascript (somente a interação).
+
+  dia 01/06/2021, adicionada a página de notificações.
+
+  - adicionada a página de imprimir relatorios ou boletos juntamente com os estilos e javascript também.
+
+  dia 08/06/2021, foi finalizada as estilizações da tela de impressõe, tais como imprimir boletos e relatórios, notas fiscais eletronicas (nfe). 
+   - criada uma página para excluisão de atendimentos.
+   - futuramente terá também em outras páginas esta mesma função.
+
+   - foram criadas as paginas de atualizar produtos
+   - atualizar Fornecedores
+   - atualizar clientes
+
+   dia 09/06/2021, atualização do menu. Cores dos botões da página em que o usuario estiver
+
+   

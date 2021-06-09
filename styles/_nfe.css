@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    outline: none;
+    color: #595959;
+}
+
+div#container {
+    display: flex;
+    min-width: 700px;
+    width: max-content;
+    margin: 2rem auto 0;
+}
+
+div#container div {
+    margin: 2rem;
+}
+
+div#divForm label {
+    width: max-content;
+}
+
+div#divForm input[type="date"] {
+    margin: 0 0 0 3.5rem;
+    border: none;
+    appearance: none;
+}
+
+#formDataNfe input[type="submit"] {
+    display: block;
+    margin: 1rem 0;
+    background: none;
+    border: none;
+    font-weight: 600;
+    color: #f78305;
+    cursor: pointer;
+}
+
+
+/*estilização da tabela*/
+
+#tabelaResultado table tr th {
+    text-align: left;
+    line-height: 30px;
+}
+
+#tabelaResultado table tr th,
+#tabelaResultado table tr td {
+    width: 200px;
+}

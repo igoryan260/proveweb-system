@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+
+/*estilizando posicao do formulario*/
+
+#formularioAtualizarProduto {
+    width: max-content;
+    margin: 3rem auto;
+}
+
+
+/*estilos da tabela*/
+
+table {
+    border-collapse: collapse;
+}
+
+thead th {
+    color: #4fafb7;
+    font-weight: 500;
+    padding: 1rem 2rem 1rem 2rem;
+    border-bottom: 1.5px black solid;
+    border-left: 1.5px solid black;
+}
+
+thead th:first-child {
+    border-left: none;
+}
+
+tbody td {
+    padding: 1rem 2rem;
+    border-left: solid black 1.5px;
+}
+
+tbody td:first-child {
+    border-left: none;
+}
+
+
+/*estilizando os inputs*/
+
+input[type="submit"] {
+    background: none;
+    border: none;
+    font-size: 12pt;
+    color: #4fafb7;
+    font-weight: 600;
+    margin: 2rem 0;
+    display: flex;
+    float: right;
+    cursor: pointer;
+}

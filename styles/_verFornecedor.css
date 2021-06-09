@@ -40,3 +40,25 @@ thead tr th {
     color: #4fafb7;
     font-weight: 500;
 }
+
+
+/*Estilização dos inputs*/
+
+#buttons button,
+#buttons input {
+    font-size: 12pt;
+    background: none;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#buttons button a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+#buttons input {
+    color: #4fafb7;
+    font-weight: 600;
+}

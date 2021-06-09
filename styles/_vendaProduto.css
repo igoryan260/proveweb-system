@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+
+/*alinhamento do formulario*/
+
+#formulario form {
+    width: max-content;
+    margin: 3rem auto;
+}
+
+
+/*titulos*/
+
+h4,
+i {
+    font-size: 11pt;
+    color: #595959;
+    font-weight: 500;
+    margin-left: -.5rem;
+    font-style: normal;
+}
+
+i {
+    font-size: 15pt;
+    color: #f78305;
+    cursor: pointer;
+    width: min-content;
+    height: min-content;
+}
+
+
+/*alinhamento dos elementos do formulario
+    estilização da aparencia dos elementos
+*/
+
+#dadosDoCliente,
+#carrinho,
+#resultados,
+#buttons {
+    display: flex;
+}
+
+#dadosDoCliente div,
+#carrinho div {
+    margin: 1rem;
+}
+
+label {
+    display: block;
+    color: #4fafb7;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+input {
+    border: solid black 1.5px;
+    outline: none;
+    width: 225px;
+    height: 20px;
+}
+
+
+/*estilizando input date*/
+
+input[type="date"] {
+    border: none;
+}
+
+
+/*estilizando o resultado de valores totais*/
+
+#resultados h6 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #595959;
+    margin-bottom: 1rem;
+}
+
+#resultados div {
+    margin: 1rem;
+}
+
+p i#desconto,
+p i#total {
+    color: #595959;
+    margin: 0 1rem;
+    font-size: 12pt;
+    font-weight: 400;
+    cursor: default;
+}
+
+
+/*estilizando inputs de actions*/
+
+#buttons {
+    justify-content: flex-end;
+}
+
+#buttons input {
+    font-weight: 600;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 12pt;
+    margin: 2rem 1rem;
+    width: min-content;
+    color: #595959;
+}
+
+#buttons input[type="submit"] {
+    color: #f78305;
+}
